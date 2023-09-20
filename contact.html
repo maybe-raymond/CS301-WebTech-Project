@@ -10,6 +10,9 @@
         li{
             margin: 10px;
         }
+        input{
+            margin-bottom: 10px;
+        }
     </style>
     <body style="background-color: black; margin: 0; padding: 0;">
         <header style="background-color: #fff;  height: 30px; padding: 30px;">
@@ -31,6 +34,24 @@
                 </ul>
             </nav>
         </header>
-        <main style="color: white; margin: 0; padding: 0;"></main>
+        <main style="color: white; margin: 0; padding: 0;">
+            <h3 style="text-align: center;">Get in contact with us</h3>
+            <img src="images/Contact.jpg" alt="man typing on a computer" />
+            <h2>Send an enquiry to our Office</h2>
+            <form style="text-align: center;">
+                    <label for="fname">First name: </label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+
+                    <label for="number"> Phone Number: </label>
+                    <input type="tel" name="number"> <br>
+
+                    <label for="message">Message: </label>
+                    <textarea placeholder="tell us whats on your mind" name="message"></textarea><br>
+
+                    <button style="width: 100px; height: 40px; margin-top: 40px">Send to us</button>
+            </form>
+        </main>
     </body>
 </html>
