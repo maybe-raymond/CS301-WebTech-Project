@@ -1,0 +1,101 @@
+body{
+    background-color: white;
+    color: black;
+}
+header{
+    background-color: #87CEEB;
+    color: white;  
+    padding: 20px; 
+}
+
+header > h1{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: beige;
+    color: black;
+    font-size: medium;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#header-h1{
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+li{
+    display: inline;
+}
+
+#current-tab{
+    background-color: beige;
+    color: black;
+    font-size: medium;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+#Hero-section{
+    color: white;
+    background-color: #87CEEB;
+    padding: 100px;
+}
+
+#Hero-header{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+#Hero-section > p{
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+
+#Hero-section > button {
+    margin-top: 40px;
+    width: 130px; 
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#Hero-section > button:hover{
+    background-color: #cceffe;
+}
+
+
+#services{
+    padding: 0;
+    margin: 0;
+}
+#services > li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.service-info{
+    text-align: left;
+}
